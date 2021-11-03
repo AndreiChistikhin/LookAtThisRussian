@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &894193475938143167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 894193475938143165}
+  - component: {fileID: 894193475938143164}
+  - component: {fileID: 894193475938143166}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &894193475938143165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894193475938143167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6754072, y: 1.9999999, z: 0.13525403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &894193475938143164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894193475938143167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 098cac5a0244073408183ded64682624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 5413886632869726927, guid: 0528391a27f56544da030a80444f2c52, type: 3}
+--- !u!114 &894193475938143166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894193475938143167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117b92cd8de1e9d40bdcd01c3ded6d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 782cfa285ce790c41ae6a619f1565311, type: 3}
+    name: Win
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: c5b3efe8e23f71e459477d26ea989af1, type: 3}
+    name: VodkaAdded
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6a934d509e1054647aa6bfa57fd004be, type: 3}
+    name: HealthDecreased
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: ba5a9f214da70604d9890b191105c230, type: 3}
+    name: Song3
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: f191fa88fa0991646be0eb79c954ceec, type: 3}
+    name: Song4
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 0a9709cafe3e52144940899f08ee9f4e, type: 3}
+    name: Song5
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 7775cc039e033c744b2f3d41833850ff, type: 3}
+    name: Song6
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: b03ef9e7c12560c4eb5afd54d15ebdde, type: 3}
+    name: Song7
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: e4f64ecd03f75144aa898665ff03c3c2, type: 3}
+    name: Song8
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 8c2ea313956a4cd4799fb3b9f2a88ca9, type: 3}
+    name: Song9
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: cbd4000ae5a88c749b982701c0fd0f98, type: 3}
+    name: Song10
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 6e6b23a64be528d46a65832014ffc647, type: 3}
+    name: Song11
+    source: {fileID: 0}
+  musciVolumeSlider: {fileID: 0}
+  musicSwitcher: {fileID: 0}
