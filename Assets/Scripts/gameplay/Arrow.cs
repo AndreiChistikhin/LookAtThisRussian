@@ -83,7 +83,6 @@ public class Arrow : MonoBehaviour
                         color.a = 0f;
                         arrowSprite.material.color = color;
                     }
-
                     else
                     {
                         color.a = 1f;
