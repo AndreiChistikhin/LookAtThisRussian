@@ -40,6 +40,7 @@ public class GrannySpawner : MonoBehaviour
                 StartRandomTimer();
             }
         }
+
         else
         {
             if (GameObject.FindObjectsOfType<Granny>().Length < levelInfo.GameLevel / 5 -5)
