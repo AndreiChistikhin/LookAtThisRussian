@@ -23,11 +23,11 @@ public class Granny : MonoBehaviour
         babka.SetDestination(target.position);
         if (target.localPosition.x - gameObject.transform.position.x<-1)
         {
-            gameObject.transform.localScale = new Vector3(-0.5f, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
+            gameObject.transform.localScale = new Vector3(4f, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
         }
         else if (target.localPosition.x - gameObject.transform.position.x > 1)
         {
-            gameObject.transform.localScale = new Vector3(0.5f, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
+            gameObject.transform.localScale = new Vector3(-4f, gameObject.transform.localScale.y, gameObject.transform.localScale.z);
         }
     }
 
