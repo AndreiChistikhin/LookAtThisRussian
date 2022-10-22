@@ -1,3 +1,3 @@
-Uploading bandicam 2022-10-22 18-24-00-346 (online-video-cutter.com).mp4…
+https://user-images.githubusercontent.com/78159702/197336563-a5233ae1-b38d-4b5e-b20e-97ab7392ed22.mp4
 
 Необходимо собирать бутылки с водкой и убегать от бабушек. В игре есть 99 уровней.
